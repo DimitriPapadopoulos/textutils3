@@ -25,7 +25,7 @@ def main():
         raise NotADirectoryError
 
     if out.samefile(new) or out.samefile(old) or old.samefile(new):
-        raise IOError("old and new are same files")
+        raise OSError("old and new are same files")
 
     for fn in old.glob("*.tex"):
         newfn = new / fn.name
