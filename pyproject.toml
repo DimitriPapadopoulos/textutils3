@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "textutils3"
 version = "1.1.0"
-description = "Recursively check spelling and grammer and other tasks with text documents."
+description = "Recursively check spelling and grammar and other tasks with text documents."
 keywords = ["spellcheck"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
