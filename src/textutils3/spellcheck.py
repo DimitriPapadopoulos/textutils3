@@ -7,7 +7,7 @@ import shutil
 import functools
 import subprocess
 from pathlib import Path
-from typing import Sequence
+from collections.abc import Sequence
 from argparse import ArgumentParser
 
 MAXSIZE = 20e6  # [bytes]

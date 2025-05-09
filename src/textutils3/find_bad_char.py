@@ -8,7 +8,7 @@ import logging
 from pathlib import Path
 from argparse import ArgumentParser
 import shutil
-from typing import Iterable
+from collections.abc import Iterable
 
 
 def scanbadchar(path: Path, pat: str, dofix: bool = False):
