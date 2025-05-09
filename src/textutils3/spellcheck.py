@@ -7,13 +7,13 @@ import shutil
 import functools
 import subprocess
 from pathlib import Path
-from typing import Sequence, Tuple
+from typing import Sequence
 from argparse import ArgumentParser
 
 MAXSIZE = 20e6  # [bytes]
 
 
-def findtextfiles(path: Path, globext: Sequence[str], exclude: Tuple[str], checkgrammar: bool = False):
+def findtextfiles(path: Path, globext: Sequence[str], exclude: tuple[str], checkgrammar: bool = False):
     """finds file to spell check"""
 
     path = Path(path).expanduser()
